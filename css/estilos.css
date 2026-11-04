@@ -1,0 +1,39 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Portada */
+.portada {
+  min-height: 60vh;
+  background: linear-gradient(135deg, red , blue);
+}
+
+/* Cards */
+.card {
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-imagen {
+  height: 220px;
+  object-fit: contain; /* que la imagen se vea completa */
+  background-color: white;
+  padding: 0.5rem;
+}
+
+/* Carrito */
+.item-carrito:last-child {
+  border-bottom: none !important;
+}
+
+/* Foto en miniatura de cada producto dentro del carrito */
+.img-carrito {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+  background-color: #fff;
+  border-radius: 6px;
+}
